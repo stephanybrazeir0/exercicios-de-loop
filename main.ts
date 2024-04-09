@@ -38,3 +38,16 @@
 
 // console.log(leiaDoisNumerosImpares(0, 10));
 
+//5
+// function leiaDoisNumerosPares (m: number, n: number) {
+//   let contador: number = 0;
+//   for (let i = m; i <= n; i++) {
+//     if (i % 2 === 0 && i != 0) {
+//       console.log(i);
+//       contador++;
+//     }
+//   }
+//   return "Total: " + contador;
+// }
+
+// console.log(leiaDoisNumerosPares(0, 10));
