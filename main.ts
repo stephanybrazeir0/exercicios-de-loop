@@ -103,6 +103,133 @@
 //   }
 // }
 
-
-
 // console.log(leianumeros([6, 2, 1, 399, 2, 3, 1]))
+
+//10
+
+// function naodeterminada (m: number, n: number){
+//   if (m >= n){
+//     return;
+//   }
+//   else {
+//     for (let i = m; i <= n; i++){
+//       console.log(i, n)
+//     }
+//   }
+// }
+
+// console.log(naodeterminada(10,18));
+
+//11
+// function numerosPositivos(array: number[]){
+//   let contador: number = 0;
+//   for(let i = 0; i < array.length; i++){
+//     if(array[i] > 0){
+//       contador += 1;
+//     }
+//     else if(array[i] === -1){
+//       return contador;
+//     }
+//     else {
+//       return `Número não aceito!`;
+//     }
+//   }
+// }
+
+// console.log(numerosPositivos([1, -5, 3, -1, 5, 6, 5]));
+
+//12
+
+// function contadorNumPositivos(array: number[]){
+//   let soma: number = 0;
+//   for(let i = 0; i < array.length; i++){
+//     if(array[i] > 0){
+//       soma += array[i];
+//     }
+//     else if(array[i] === -1){
+//       return soma;
+//     }
+//     else {
+//       return `Número não aceito!`;
+//     }
+//   }
+// }
+// console.log(contadorNumPositivos([1, -5, 10, 20, -1, 30]));
+
+//13
+
+// function numerosParesImpares(array: number[]){
+//   let impar: number = 0;
+//   let par: number = 0;
+//   for(let i = 0; i < array.length; i++){
+//     if(array[i] % 2 === 0){
+//       par++;
+//     }
+//     else if (array[i] % 2 !== 0 && array[i] !== -1){
+//       impar++;
+//     }
+//     else if(array[i] === -1){
+//       return "Pares: " + par + " Impares: " + impar;
+//     }
+//     else {
+//       return `Número não aceito!`;
+//     }
+//   }
+// }
+// console.log(numerosParesImpares([2, 3, 4, 5, 6, -1, 20]));
+
+//14
+
+// function numerosMultiplos(array: number[]){
+//   let mult2e5: number = 0;
+//   let mult2e3: number = 0;
+//   for(let i = 0; i < array.length; i++){
+//     if(array[i] % 2 === 0 && array[i] % 3 === 0){
+//       mult2e3++;
+//     }
+//     else if (array[i] % 2 === 0 && array[i] % 5 === 0){
+//       mult2e5++;
+//     }
+//     else if(array[i] === -1){
+//       return "Multiplos de 2 e 5: " + mult2e5 + " Multiplos de 2 e 3: " + mult2e3;
+//     }
+//     else {
+//       return `Número não aceito!`;
+//     }
+//   }
+// }
+// console.log(numerosMultiplos([20, 12, 40, 30, -1, 100]));
+
+//15
+
+// function leiaArray (array: number[]){
+//   let par: number = 0;
+//   let impar: number = 0;
+//   let medPar: number = 0;
+//   let medT: number = 0;
+//   let somaPar: number = 0;
+//   let somaT: number = 0;
+  
+//   for (let i = 0; i < array.length; i++){
+//     if (array[i] > 0){
+//       somaT += array[i];
+//       if (array[i] % 2 ===0){
+//         par++;
+//         somaPar += array[i];
+//       }
+//       else {
+//         impar++;
+//       }
+//     }
+//     else if (array[i] === 0){
+//       medPar = somaPar/par;
+//       medT = somaT/(array.length - 1);
+//       return "Pares: " + par + " Impares: " + impar + " Media de Pares: " + medPar + "Media Total: " + medT;
+//     }
+//     else{
+//       return `Número não aceito`;
+
+//     }
+//   }
+// }
+// console.log(leiaArray([7, 2, 3, 4, 5, 0]));
