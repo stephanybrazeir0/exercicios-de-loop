@@ -11,7 +11,7 @@ Nomes: Cecília e Stephany
 7. Faça um programa que leia um número inicial M, um valor de incremento I e o número de incresmenetos N e após mostre N números de I em I começando em M.
 8. Faça um programa que leia o N(o usuário deverá informar a quantidade de números que será informada) e ao final diga qual o valor do maior e do menor número digitado.
 9. Faça um programa que leia N números e ao final mostre os 3 maiores números digitados.
-10.Faça um programa que leia um número não determinado de pares[M,N], todos inteiros e positivos, um par de cada vez, e que calcule e mostre a soma de todos os números inteiros de M até N(inclusive). A digitação de pares terminará quando M for maior ou igual a N.
+10. Faça um programa que leia um número não determinado de pares[M,N], todos inteiros e positivos, um par de cada vez, e que calcule e mostre a soma de todos os números inteiros de M até N(inclusive). A digitação de pares terminará quando M for maior ou igual a N.
 11. Faça um programa no qual o usuário insira valores números positivos até digitar -1 e ao final diga quantos números foram digitos.
 12. Faça um programa no qual o usuário insira valores números positivos até digitar -1 e ao final diga o somatório dos valores digitados.
 13. Faça um programa no qual o usuário insira valores números positivos até digitar -1 e ao final informe quantos números pares e quantos números impares foram digitados.
